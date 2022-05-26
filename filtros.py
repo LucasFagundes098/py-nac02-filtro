@@ -150,7 +150,7 @@ while True:
 
             # using the processing images function to add the filter images
             process_image(doggy_tongue, [40,51], True)
-            process_image(glasses2, [37,46], False)
+            process_image(glasses2, [36,44], False)
 
 
             #filtro 03 - labios vermelhos
