@@ -145,8 +145,8 @@ while True:
                     return
                 
             # adding the filter images
-            doggy_tongue= cv2.imread("./images/doggy_tongue.png", cv2.IMREAD_UNCHANGED)
-            glasses2 = cv2.imread("./images/glasses2.png", cv2.IMREAD_UNCHANGED)
+            doggy_tongue= cv2.imread("./img/doggy_tongue.png", cv2.IMREAD_UNCHANGED)
+            glasses2 = cv2.imread("./img/glasses2.png", cv2.IMREAD_UNCHANGED)
 
             # using the processing images function to add the filter images
             process_image(doggy_tongue, [40,51], True)
